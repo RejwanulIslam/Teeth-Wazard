@@ -1,0 +1,92 @@
+[
+    {
+        "reviewId": 1,
+        "name": "Emily Johnson",
+        "userpng": "https://randomuser.me/api/portraits/women/1.jpg",
+        "review": "Absolutely loved the service! The dentist was kind and professional."
+    },
+    {
+        "reviewId": 2,
+        "name": "Michael Smith",
+        "userpng": "https://randomuser.me/api/portraits/men/2.jpg",
+        "review": "Very satisfied with my teeth cleaning. Friendly staff and clean clinic."
+    },
+    {
+        "reviewId": 3,
+        "name": "Samantha Lee",
+        "userpng": "https://randomuser.me/api/portraits/women/3.jpg",
+        "review": "Great experience! I was nervous, but they made me feel comfortable."
+    },
+    {
+        "reviewId": 4,
+        "name": "David Kim",
+        "userpng": "https://randomuser.me/api/portraits/men/4.jpg",
+        "review": "The best dental care I’ve received. Highly recommend this clinic!"
+    },
+    {
+        "reviewId": 5,
+        "name": "Olivia Garcia",
+        "userpng": "https://randomuser.me/api/portraits/women/5.jpg",
+        "review": "Excellent service and great attention to detail. Will be back!"
+    },
+    {
+        "reviewId": 6,
+        "name": "James Nguyen",
+        "userpng": "https://randomuser.me/api/portraits/men/6.jpg",
+        "review": "Super gentle and caring. The tooth extraction was quick and painless."
+    },
+    {
+        "reviewId": 7,
+        "name": "Ava Patel",
+        "userpng": "https://randomuser.me/api/portraits/women/7.jpg",
+        "review": "Amazing results from teeth whitening! So happy with my smile."
+    },
+    {
+        "reviewId": 8,
+        "name": "William Martinez",
+        "userpng": "https://randomuser.me/api/portraits/men/8.jpg",
+        "review": "The staff is friendly and helpful. Clean and modern facility."
+    },
+    {
+        "reviewId": 9,
+        "name": "Isabella Thomas",
+        "userpng": "https://randomuser.me/api/portraits/women/9.jpg",
+        "review": "The dentist explained everything clearly and was super patient."
+    },
+    {
+        "reviewId": 10,
+        "name": "Lucas Brown",
+        "userpng": "https://randomuser.me/api/portraits/men/10.jpg",
+        "review": "Very professional and kind. My root canal went smoother than expected!"
+    },
+    {
+        "reviewId": 11,
+        "name": "Grace Wilson",
+        "userpng": "https://randomuser.me/api/portraits/women/11.jpg",
+        "review": "Couldn’t be happier with the results. Fantastic dental clinic!"
+    },
+    {
+        "reviewId": 12,
+        "name": "Benjamin Taylor",
+        "userpng": "https://randomuser.me/api/portraits/men/12.jpg",
+        "review": "They really care about their patients. Highly recommend them."
+    },
+    {
+        "reviewId": 13,
+        "name": "Mia Anderson",
+        "userpng": "https://randomuser.me/api/portraits/women/13.jpg",
+        "review": "Fast, friendly, and effective. Great service every time!"
+    },
+    {
+        "reviewId": 14,
+        "name": "Henry Scott",
+        "userpng": "https://randomuser.me/api/portraits/men/14.jpg",
+        "review": "Painless filling and friendly staff. Thanks for the awesome care!"
+    },
+    {
+        "reviewId": 15,
+        "name": "Chloe Lewis",
+        "userpng": "https://randomuser.me/api/portraits/women/15.jpg",
+        "review": "Love coming here! My teeth have never felt so clean."
+    }
+]

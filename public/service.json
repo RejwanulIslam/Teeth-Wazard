@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "treatment": "Teeth Cleaning",
+      "description": "A routine dental cleaning to remove plaque and tartar buildup.",
+      "cost": 75,
+      "image": "https://example.com/images/teeth-cleaning.jpg"
+    },
+    {
+      "id": 2,
+      "treatment": "Cavity Filling",
+      "description": "Restoration of decayed teeth using composite resin material.",
+      "cost": 120,
+      "image": "https://example.com/images/cavity-filling.jpg"
+    },
+    {
+      "id": 3,
+      "treatment": "Tooth Extraction",
+      "description": "Safe removal of a severely damaged or decayed tooth.",
+      "cost": 150,
+      "image": "https://example.com/images/tooth-extraction.jpg"
+    },
+    {
+      "id": 4,
+      "treatment": "Root Canal",
+      "description": "Treatment for infected tooth pulp and saving the natural tooth.",
+      "cost": 350,
+      "image": "https://example.com/images/root-canal.jpg"
+    },
+    {
+      "id": 5,
+      "treatment": "Teeth Whitening",
+      "description": "Professional in-office whitening procedure for brighter teeth.",
+      "cost": 200,
+      "image": "https://example.com/images/teeth-whitening.jpg"
+    }
+  ]
+  
