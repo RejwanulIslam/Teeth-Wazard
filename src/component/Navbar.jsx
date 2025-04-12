@@ -16,7 +16,8 @@ export default function Navbar() {
           <li><NavLink to="/myappioment">Myappioment</NavLink></li>
          </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">TEETH WAZARD</a>
+        <NavLink to="/"><button className=""></button>TEETH WAZARD</NavLink>
+        
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -27,7 +28,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-primary">Login</a>
+        <NavLink to="/login"><button className='btn btn-primary'>Login</button></NavLink>
       </div>
     </div>
   )
