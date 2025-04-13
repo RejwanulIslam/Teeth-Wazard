@@ -2,6 +2,8 @@ import React, { useContext, useState } from 'react'
 import { authcontex } from './AuthProvider'
 
 export default function Register() {
+    
+    console.log(location)
     const { handlerejester,handlegooglelogin, manageProfile } = (useContext(authcontex))
     const [error, seterror] = useState("")
 
@@ -23,6 +25,7 @@ export default function Register() {
         handlerejester(email, password)
         .then(res =>{
             manageProfile(name, PhoroURL)
+            
         })
       
         console.log({ name, password, email, confarmpassword, PhoroURL })

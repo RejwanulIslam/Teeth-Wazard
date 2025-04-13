@@ -10,7 +10,7 @@ export default function PrivactRoute({children}) {
         return <span className="loading loading-spinner text-neutral"></span>
     }
     if(!user){
-        return <Navigate to="/login" state={{from:location.pathname}} ></Navigate>
+        return <Navigate to="/login" state={{from:location?.pathname}} ></Navigate>
     }
   return children                        
 }

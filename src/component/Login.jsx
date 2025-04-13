@@ -6,7 +6,7 @@ export default function Login() {
   const { handlerejester, handlelogin, handlegooglelogin, handlelogout } = useContext(authcontex)
   const location = useLocation()
   const navigate = useNavigate()
-   console.log(location)
+   //console.log(location.state.from)
   
   const handleLoginrSubmit = (event) => {
    
@@ -14,19 +14,24 @@ export default function Login() {
     event.preventDefault()
     const e = event.target
     const email = e.email.value;
-    const password = e.password.value;
+    // const password = e.password.value;
     handlelogin(email, password)
     .then(res=>{
-      navigate(location.state.from)  
-    })
+      
+      
+      navigate (location?.state?.from) 
+       
+         })
     console.log({ email, password, })
 
 
   }
+  
   const googlelogin =()=>{
     handlegooglelogin()
     .then(res=>{
-      navigate(location.state.from)  
+      navigate (location?.state?.from)  
+
     })
   }
 
@@ -50,6 +55,7 @@ export default function Login() {
       </div>
       <div>
       <button onClick={ googlelogin} className='btn btn-primary text-start'>google login</button>
+      <button onClick={()=>handlelogout()} className='btn btn-primary text-start'>signout</button>
       </div>
       <div className='flex'>
         <p>you have do not acount plase register</p><NavLink to="/register"><button className='btn btn-ghost'>Register</button></NavLink>

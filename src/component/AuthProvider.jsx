@@ -1,4 +1,4 @@
-import { getAuth, GoogleAuthProvider, createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup, onAuthStateChanged, updateProfile } from "firebase/auth";
+import { getAuth, GoogleAuthProvider, createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup, onAuthStateChanged, updateProfile, signOut } from "firebase/auth";
 import React, { createContext, useEffect, useState } from 'react'
 import auth from "../firebase/firebase.config";
 
@@ -29,6 +29,9 @@ export default function AuthProvider({ children }) {
     }
     const handlelogout = () => {
         signOut(auth)
+        .then(() => {
+            console.log ("Sign-out successful.")
+          })
     }
 
     const manageProfile = (name, image) => {
